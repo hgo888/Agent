@@ -1,0 +1,58 @@
+# 环境变量与密钥
+.env
+**/.env
+# 保留 .env_example 作为配置模板
+
+# IDE 配置
+.idea/
+.vscode/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 大型二进制文件（图片、PDF、FAISS索引、数据集）
+pure_ocr/image_path/
+*.png
+*.pdf
+*.faiss
+*.pkl
+*.zstd
+*.zip
+datasets.zip
+
+# VLM 工作目录与输出
+vlm/localworkspace/
+vlm/result_markdown/*/
+vlm/result_markdown/index.faiss
+vlm/result_markdown/index.pkl
+workspace/
+
+# GraphRAG 输出与缓存
+GraphRAG/tourist_graphrag/output/
+GraphRAG/tourist_graphrag/cache/
+GraphRAG/tourist_graphrag/logs/
+
+# OCR 输出
+pure_ocr/output/
+pure_ocr/result_markdown/
+pure_ocr/pdf_path/
+
+# 系统文件
+.DS_Store
+Thumbs.db
